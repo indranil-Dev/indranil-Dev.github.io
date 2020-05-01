@@ -1,37 +1,80 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Blog Exercise</title>
+    <style>
+        body{
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        .container
+        {
+            border: 20px solid #bdc3c2;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 2%;
+        }
+        .innerContainer
+        {
+            margin:3%;
+            /* border: 1px solid black; */
+        }
+        .date{
+            
+            color: #3498db;
+            text-transform: uppercase;
+        }
+        .articleTitle
+        {
+            text-transform: capitalize;
+            
+        }
+        .articlebody
+        {
+            
+            text-align: justify;
+            border-left: 5px solid #bdc3c2;
+            padding-left: 4px;
+        }
+        .restBody
+        {
+            
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
 
-You can use the [editor on GitHub](https://github.com/indranil-Dev/indranil-Dev.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+    <div class="container">
+        <div class="innerContainer">
+            <span><p class="date">March&nbsp;&nbsp;01&nbsp;&nbsp;2020</p></span>
+            <h2 class="articleTitle">This is my first article</h2>
+            <p class="articlebody">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quos, quam sequi eaque veniam provident placeat voluptas sed ut maiores deserunt est impedit in quisquam recusandae harum consectetur qui autem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, laudantium laborum mollitia labore consequatur quisquam. Asperiores tenetur laudantium, officiis sit, consectetur culpa obcaecati ipsam, qui dicta aut non. Rem, doloremque.
+            </p>
+            <p class="restBody">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium atque voluptatibus qui minus adipisci officiis! Officiis aperiam rem exercitationem tenetur deleniti eligendi excepturi veritatis nemo illum perspiciatis neque, dolore dolor?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br/><br/> Atque, ratione soluta eaque quis iure modi, illo excepturi, praesentium temporibus asperiores consequatur esse? Asperiores laudantium laboriosam soluta! Distinctio eius aspernatur cum.
+            
+            </p>
+            <hr>
+            <span><p class="date">March&nbsp;&nbsp;01&nbsp;&nbsp;2020</p></span>
+            <h2 class="articleTitle">This is my second article</h2>
+            <p class="articlebody">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quos, quam sequi eaque veniam provident placeat voluptas sed ut maiores deserunt est impedit in quisquam recusandae harum consectetur qui autem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, laudantium laborum mollitia labore consequatur quisquam. Asperiores tenetur laudantium, officiis sit, consectetur culpa obcaecati ipsam, qui dicta aut non. Rem, doloremque.
+            </p>
+            <p class="restBody">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium atque voluptatibus qui minus adipisci officiis! Officiis aperiam rem exercitationem tenetur deleniti eligendi excepturi veritatis nemo illum perspiciatis neque, dolore dolor?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br/><br/> Atque, ratione soluta eaque quis iure modi, illo excepturi, praesentium temporibus asperiores consequatur esse? Asperiores laudantium laboriosam soluta! Distinctio eius aspernatur cum.
+            
+            </p>
+        </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/indranil-Dev/indranil-Dev.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    </div>
+    
+</body>
+</html>
